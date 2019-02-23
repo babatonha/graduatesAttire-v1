@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Booking | Graduates Attire</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- ElegantFonts CSS -->
+    <link rel="stylesheet" href="css/elegant-fonts.css">
+
+    <!-- themify-icons CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="single-page news-page">
+    <header class="site-header">
+        <div class="top-header-bar">
+            <div class="container">
+                <div class="row flex-wrap justify-content-center justify-content-lg-between align-items-lg-center">
+                    <div class="col-12 col-lg-8 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
+                        <div class="header-bar-email">
+                            MAIL: <a href="#">contact@ourcharity.com</a>
+                        </div><!-- .header-bar-email -->
+
+                        <div class="header-bar-text">
+                            <p>PHONE: <span>+27 78 128 2185 / +27 82 731 5507</span></p>
+                        </div><!-- .header-bar-text -->
+                    </div><!-- .col -->
+
+                    <div class="col-12 col-lg-4 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
+                        <div class="donate-btn">
+                            <a href="contact.html">Get in touch</a>
+                        </div><!-- .donate-btn -->
+                    </div><!-- .col -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .top-header-bar -->
+
+         
+    <div class="nav-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">
+                    <div class="site-branding d-flex align-items-center">
+                       <a class="d-block" href="index.html" rel="home" style="text-decoration:none;"><h1 class="newlogo"><strong class="logolaterF">Graduates</strong><strong class="logolaterS">Attire</strong></h1></a>
+                    </div><!-- .site-branding -->
+
+                    <nav class="site-navigation d-flex justify-content-end align-items-center">
+                        <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li class="current-menu-item"><a href="booking.html">Booking</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav><!-- .site-navigation -->
+
+
+            
+
+                    <div class="hamburger-menu d-lg-none">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div><!-- .hamburger-menu -->
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .nav-bar -->
+    </header><!-- .site-header -->
+
+    <div class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Booking</h1>
+                </div><!-- .col -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </div><!-- .page-header -->
+
+    <div class="news-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+
+
+
+
+                    <p>  Fill up the form and tell us what you want. You are very free to add any
+                            information you ant in the Messages area.</p>
+
+                    
+                        <form class="contact-form" method="POST" action="booking.php">
+                            <h3>Personal Information</h3>
+
+                            <select id="selectTitle" name="selectTitle" required>
+                                <option value="">Title</option>
+                                <option value="Mr">Mr</option>
+                                <option value="Mrs">Mrs</option>
+                                <option value="Miss">Miss</option>
+                                <option value="Other">Other</option>
+                             </select>
+
+                            <input type="text" placeholder="Name" id="inputName" name="inputName" required>
+                            <input type="text" placeholder="Surname" id="inputSurname" name="inputSurname" required>
+
+                            <h3>Gown Requirements</h3>
+
+                            <select id="selectRequestType" name="selectRequestType" required>
+                                    <option value="">Select Request</option>
+                                    <option value="Purchase">Purchase</option>
+                                    <option value="Hire">Hire</option>
+                                    
+                            </select>
+
+                            <input type="text" placeholder="Enter your gown size (height)" id="inputGownSize" name="inputGownSize" required>
+                            <input type="text" placeholder="Name of Institution" id="inputInstitution" name="inputInstitution" required>
+
+                            <h3>Contact Details</h3>
+                            <input type="email" placeholder="Email" id="inputEmail" name="inputEmail" required>
+                            
+                            <input type="text" placeholder="Cellphone" id="inputCell" name="inputCell" required>
+                            <input type="text" placeholder="Address" id="inputAddress" name="inputAddress" required>
+
+                            <textarea rows="15" cols="6" placeholder="Messages (Any details or instructions)" id="inputMessage" name="inputMessage" required>
+
+                            </textarea>
+    
+                            <span>
+                                <input class="btn gradient-bg" type="submit" value="Send Booking">
+                            </span>
+                        </form><!-- .contact-form -->
+
+                </div>
+                <div class="col-12 col-lg-4">
+                    <h3>About booking</h3>
+                  <p> Graduation regalia should be reserved before the ceremony. 
+                        To do this either call or email detailing the institution you are graduating at,
+                         the qualification you shall be graduating with, the length of hire and a contact telephone number.
+                          Please be aware that we can 
+                        become very busy around graduation time so book your regalia in good time.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="footer-widgets">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="foot-about">
+                            <h2 style="color:white;">Graduates Attire</h2>
+
+                            <p>For all your regalia needs, feel free to contact us here on our site, or reach out to us on our social media platforms below.</p>
+
+                            <ul class="d-flex flex-wrap align-items-center">
+                                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div><!-- .foot-about -->
+                    </div><!-- .col -->
+
+                    <div class="col-12 col-md-6 col-lg-4 mt-5 mt-md-0">
+                        <h2>Useful Links</h2>
+
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Our Services</a></li>
+                            <li><a href="about.html">Testimonials</a></li>
+                            <li><a href="booking.html">Booking</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div><!-- .col -->
+
+                   
+
+                    <div class="col-12 col-md-6 col-lg-4 mt-5 mt-md-0">
+                        <div class="foot-contact">
+                            <h2>Contact</h2>
+
+                            <ul>
+                                <li><i class="fa fa-phone"></i><span> +27 82 731 5507</span></li>
+                                <li><i class="fa fa-envelope"></i><span>office@graduatesattire.com</span></li>
+                                <li><i class="fa fa-map-marker"></i><span>Shop No 23B, 61 Hans Van Runsburg street, Library Gardens, Polokwane 0699</span></li>
+                            </ul>
+                        </div><!-- .foot-contact -->
+
+                        <div class="subscribe-form">
+                            <form class="d-flex flex-wrap align-items-center">
+                                <input type="email" placeholder="Your email">
+                                <input type="submit" value="send">
+                            </form><!-- .flex -->
+                        </div><!-- .search-widget -->
+                    </div><!-- .col -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .footer-widgets -->
+
+        <div class="footer-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <i class="fa fa-heart-o" aria-hidden="true"></i>  <a href="https://colorlib.com" target="_blank"></a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div><!-- .col-12 -->
+                </div><!-- .row -->
+            </div><!-- .container -->
+        </div><!-- .footer-bar -->
+    </footer><!-- .site-footer -->
+
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+    <script type='text/javascript' src='js/swiper.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+    <script type='text/javascript' src='js/circle-progress.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
+    <script type='text/javascript' src='js/jquery.barfiller.js'></script>
+    <script type='text/javascript' src='js/custom.js'></script>
+
+</body>
+</html>

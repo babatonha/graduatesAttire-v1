@@ -1,0 +1,46 @@
+.newlogo{
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+  
+}
+
+.logolaterS{
+    color: orangered;
+}
+
+select {
+
+    width: 100%;
+    padding: 12px 24px;
+    margin-bottom: 18px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    line-height: 1;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Montserrat, sans-serif;
+   
+    
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: orangered;
+    color: white;
+  }
+  .service-intro{
+      padding-left: 50px;
+  }
+  .service-table{
+      padding-right: 50px;
+      padding-left: 50px;
+  }
